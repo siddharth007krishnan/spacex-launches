@@ -1,0 +1,26 @@
+.launches {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  gap: 1rem;
+}
+
+@media screen and (min-width: 700px) and (max-width: 1024px) {
+  .launches {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+  .launches {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .launches {
+    margin: 0 auto;
+    max-width: 1440px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}

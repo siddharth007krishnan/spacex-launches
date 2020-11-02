@@ -1,0 +1,37 @@
+.filters {
+  background-color: white;
+  border-radius: 0.25rem;
+  padding: 1rem;
+  height: min-content;
+}
+
+.filters > header {
+  font-size: x-large;
+}
+
+.filters > main {
+  padding: 0.4rem;
+}
+
+.filters main > h5 {
+  font-weight: 400;
+  text-decoration: underline;
+  margin: 0 auto;
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.filters main > h5:nth-of-type(1) {
+  margin-top: 0;
+}
+
+.filters__launchYears,
+.filters__successfullLaunch,
+.filters__successfullLanding {
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  grid-template-rows: 1fr;
+  grid-row-gap: 1rem;
+}

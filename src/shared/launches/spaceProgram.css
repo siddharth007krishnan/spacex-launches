@@ -1,0 +1,21 @@
+.program {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 0.25rem;
+}
+
+.program h5 {
+  font-size: 1rem;
+}
+
+.program > header > h5,
+ul li {
+  font-size: 1rem;
+  color: rgb(114, 159, 207);
+}
+
+.program__picture > img {
+  display: block;
+  width: 100%;
+  background-color: gainsboro;
+}

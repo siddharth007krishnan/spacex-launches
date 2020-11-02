@@ -1,0 +1,6 @@
+server.js
+*.map
+
+public/*
+
+/node_modules
