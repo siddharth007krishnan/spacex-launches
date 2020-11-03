@@ -11,7 +11,7 @@
     "start-dev": "concurrently \"npm run build\" \"npm run serve\"",
     "start": "NODE_ENV=production node server.js",
     "build-prod": "NODE_ENV=production ./node_modules/.bin/webpack -p",
-    "start-server": "NODE_ENV=production node server.js"
+    "start-server": "NODE_ENV=production PORT=3030 node server.js"
   },
   "keywords": ["heroku"],
   "author": "",
