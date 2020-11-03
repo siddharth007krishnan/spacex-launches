@@ -1,5 +1,7 @@
 *.map
 
 public/*
+server.js
+server.js.map
 
 /node_modules
