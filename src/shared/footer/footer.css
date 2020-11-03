@@ -1,0 +1,8 @@
+.footer {
+  padding: 2rem;
+}
+
+.footer > h3 {
+  margin: 0 auto;
+  text-align: center;
+}

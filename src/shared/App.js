@@ -1,6 +1,7 @@
 import React from 'react'
 import Filters from './filters'
 import Launches from './launches'
+import Footer from './footer'
 
 import './App.css'
 
@@ -14,6 +15,7 @@ function App() {
         <Filters />
         <Launches />
       </section>
+      <Footer />
     </div>
   )
 }

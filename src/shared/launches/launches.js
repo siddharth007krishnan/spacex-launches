@@ -12,8 +12,8 @@ function Launches() {
   const dispatch = useDispatch()
 
   useEffect(() => {
-    dispatch(fetchSpacePrograms())
-  }, [])
+    dispatch(fetchSpacePrograms(100, programs.filters))
+  }, [programs.filters])
 
   if (programs.launches.status === 'PENDING') {
     return <h1>Loading ...</h1>
